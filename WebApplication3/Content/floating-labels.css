@@ -24,8 +24,8 @@
 
 
 @keyframes float-labels {
-    0% { opacity: 1; color: #aaa; top: 0.1em; font-size: 1.5em; }
-    20% { font-size: 1.5em; opacity: 0; }
+    0% { opacity: 1; color: #aaa; top: 0.1em; font-size: .85em; }
+    20% { font-size: .85em; opacity: 0; }
     30% { top: 0.1em; }
     50% { opacity: 0; font-size: 0.85em; }
     100% { top: -1em; opacity: 1; }
