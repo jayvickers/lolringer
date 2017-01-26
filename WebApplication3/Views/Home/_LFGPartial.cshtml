@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "LFG";
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header ringer-modal">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Looking For Group</h4>
+        </div>
+
+        <div class="modal-body">
+            <div class="form-group float-label-control">
+                <label for="SummonerName">Summoner Name</label>
+                <input id="SummonerName" type="text" class="form-control" placeholder="Summoner Name" required="required">
+            </div>
+            <br/>
+            <select class="selectpicker" title="Select Server" data-width="auto" required="required">
+                <option>NA</option>
+                <option>EUW</option>
+                <option>EUNE</option>
+                <option>KR</option>
+                <option>CN</option>
+            </select>
+            <select class="selectpicker" multiple title="Select Role(s)" data-width="50%" required="required">
+                <option>Top</option>
+                <option>Jungle</option>
+                <option>Mid</option>
+                <option>Bottom</option>
+                <option>Support</option>
+            </select>
+        </div>
+        <div class="modal-footer ringer-modal">
+            <ul class="list-inline ">
+                <li>
+                    <a class="btn btn-default btn-simple modal-btn" data-dismiss="modal">Close</a>
+                </li>
+                <li class="li-divider">
+                    <div class="divider-vertical"></div>
+                </li>
+                <li>
+                    <a class="btn btn-simple btn-info modal-btn">Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

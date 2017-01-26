@@ -1,0 +1,77 @@
+﻿body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+.ringer-modal {
+    border: none;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.divider-vertical {
+    background-color: #DDDDDD;
+    height: 30px;
+    width: 1px;
+    vertical-align: bottom;
+}
+.li-divider {
+    vertical-align: bottom;
+}
+
+.modal-btn.btn-default {
+    display: inline-block;
+    border: 0;
+    padding: 8px 16px;
+    background-color: #ffffff
+}
+.modal-btn.btn-info  {
+    display: inline-block;
+    border: 0;
+    padding: 8px 16px;
+    color:#5bc0de;
+    background-color: #ffffff
+}
+
+li, a.modal-btn {
+    display:inline-block;
+    text-align:center;
+}
+a.modal-btn:hover {
+    font-weight:bold;
+}
+a.modal-btn::after {
+    display:block;
+    content:attr(title);
+    font-weight:bold;
+    height:1px;
+    color:transparent;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:-1px;
+}
+
+input[type="text"]:focus {
+    border-color: #5bc0de;
+}
+
+.modal-title {
+    color: #777777;
+}
