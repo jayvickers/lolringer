@@ -159,6 +159,5 @@ C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\bin\Microsoft.Owin.Secu
 C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
 C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\jvickers\Source\Repos\lolringer\WebApplication3\obj\Debug\WebApplication3.pdb
