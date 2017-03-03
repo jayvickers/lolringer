@@ -23,7 +23,8 @@ namespace WebApplication3
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js",
                       "~/Scripts/bootstrap-select.js",
-                      "~/Scripts/floating-labels.js"));
+                      "~/Scripts/floating-labels.js",
+                      "~/Scripts/datatables.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
@@ -31,7 +32,8 @@ namespace WebApplication3
                       "~/Content/landing-page.css",
                       "~/Content/font-awesome.css",
                       "~/Content/bootstrap-select.css",
-                      "~/Content/floating-labels.css"));
+                      "~/Content/floating-labels.css",
+                      "~/Content/datatables.min.css"));
         }
     }
 }
